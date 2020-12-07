@@ -1,0 +1,13 @@
+in the file DATA_EMC.mat you find the following:
+- PPx_U40_1000 is the x coordinate of the pivot point at the wind speed 4 m/s with a load of 1000 ohm
+- PPy_U40_1000 is the y coordinate, th_U40_1000 is the angle of the wing
+-TEx_U40_1000 and TEy_U40_1000 are the x,y coordinates of the trailing edge (the end of the wing)
+- P is matrix [6 9] where along the rows is the load and along the column is the wind speed
+- Up is a vector of the wind speed
+- R is a vector of the load
+- freq is a matrix [6 6] of the frequency. along the rows is the load, along the column is the wind speed (!! with the vector U !!)
+- phases is a matrix [6 6] of the phase between the pivot point and the angle
+- dt is the time interval, then the time of the experiment is: 
+t = dt * [0:length(PPy_U65_5000)-1]
+
+ 

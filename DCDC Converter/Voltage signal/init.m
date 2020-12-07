@@ -1,0 +1,27 @@
+sizeA=[2 inf];
+fileID = fopen('voltage values.txt','r');
+[V,~] = fscanf(fileID,['%f' ',' '%f'],sizeA);
+fclose(fileID);
+t=0:0.0002:0.5;
+d = designfilt('lowpassfir','PassbandFrequency',0.005,'StopbandFrequency',0.015,'PassbandRipple',1,'StopbandAttenuation',60,'DesignMethod','equiripple');
+y=filtfilt(d,V(2,:));
+ys=interp1(V(1,:),y,t);
+idx=find(isnan(ys));
+ys(idx)=0;
+yl=ys(1:2236);
+yl=[yl ys(361:2236)];
+yl=[yl ys(361:2236)];
+yl=yl(270:5988);
+tl=0:0.0002:1.1436;
+
+ylt=yl;
+tl2=0:0.000244:1.3952;
+yl2=interp1(tl2,yl,tl);
+ylt=ylt(1:5606);
+ylt=[ylt yl2(297:5719)];
+tl3=0:0.000175:1.0008;
+yl3=interp1(tl3,yl,tl);
+ylt=ylt(1:10841);
+ylt = [ylt yl3(215:5719)];
+ylt=ylt(1:15631);
+tl=0:0.0002:3.12618;
