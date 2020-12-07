@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090101-101818-1230805073.227/mfc/vf4-11.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence PROVIDENCE HAD DELIVERED HIM THROUGH THE MAELSTROM silence  ==  [913 frames] -54.2836 [Ac=-49560.9 LM=0.0] (Act=18.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090101-101818-1230805073.227/mfc/vf4-12.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence A CRY OF JOY BURST FROM PHILIP'S LIPS silence  ==  [717 frames] -54.0660 [Ac=-38765.4 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090101-101818-1230805073.227/mfc/vf4-13.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence PHILIP BEGAN TO FEEL THAT HE HAD FOOLISHLY OVERESTIMATED HIS STRENGTH silence  ==  [1009 frames] -55.7029 [Ac=-56204.2 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090101-101818-1230805073.227/mfc/vf4-14.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE OBEYED THE PRESSURE OF HER HAND silence  ==  [653 frames] -55.5215 [Ac=-36255.6 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090101-101818-1230805073.227/mfc/vf4-17.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEN HE STEPPED BACK WITH A LOW CRY OF PLEASURE silence  ==  [637 frames] -56.6538 [Ac=-36088.5 LM=0.0] (Act=16.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

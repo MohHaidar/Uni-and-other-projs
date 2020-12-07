@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 37 physical / 37 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080702-034856-1214970500.59/mfc/vf3-31.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence INSTEAD HE JOINED HER AND THEY ATE LIKE TWO HUNGRY CHILDREN silence  ==  [825 frames] -60.1080 [Ac=-49589.1 LM=0.0] (Act=15.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080702-034856-1214970500.59/mfc/vf3-32.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HE WAS WOUNDED IN THE ARM silence  ==  [652 frames] -56.7095 [Ac=-36974.6 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080702-034856-1214970500.59/mfc/vf3-33.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I SUPPOSE YOU PICKED THAT LINGO UP AMONG THE INDIANS silence  ==  [785 frames] -57.8477 [Ac=-45410.4 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080702-034856-1214970500.59/mfc/vf3-34.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HER WORDS SENT A STRANGE CHILL THROUGH PHILIP silence  ==  [741 frames] -58.3718 [Ac=-43253.5 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080702-034856-1214970500.59/mfc/vf3-36.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence WAS IT THE RENDEZVOUS OF THOSE WHO WERE STRIVING TO WORK HIS RUIN silence  ==  [972 frames] -59.0676 [Ac=-57413.7 LM=0.0] (Act=14.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

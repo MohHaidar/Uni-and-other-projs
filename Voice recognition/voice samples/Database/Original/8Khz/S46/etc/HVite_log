@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-06.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence DEATH HAD COME WITH TERRIBLE SUDDENNESS silence  ==  [507 frames] -56.0692 [Ac=-28427.1 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-07.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence PHILIP BENT LOWER AND STARED INTO THE FACE OF THE DEAD MAN silence  ==  [862 frames] -55.9821 [Ac=-48256.6 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-08.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE MADE SURE THAT THE MAGAZINE WAS LOADED AND RESUMED HIS PADDLING silence  ==  [1088 frames] -55.9771 [Ac=-60903.1 LM=0.0] (Act=12.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-09.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE NIGHTGLOW WAS TREACHEROUS TO SHOOT BY silence  ==  [571 frames] -56.9268 [Ac=-32505.2 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-10.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE SINGING VOICE APPROACHED RAPIDLY silence  ==  [545 frames] -56.5517 [Ac=-30820.7 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-11.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS BLOOD GREW HOT WITH RAGE AT THE THOUGHT silence  ==  [571 frames] -56.3517 [Ac=-32176.8 LM=0.0] (Act=16.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-12.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE WENT DOWN IN MIDSTREAM SEARCHING THE SHADOWS OF BOTH SHORES silence  ==  [794 frames] -58.3095 [Ac=-46297.7 LM=0.0] (Act=14.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-13.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence FOR A FULL MINUTE HE CROUCHED AND LISTENED silence  ==  [635 frames] -55.4247 [Ac=-35194.7 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-14.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE HAD BARELY ENTERED THIS WHEN HE SAW THE GLOW OF A FIRE silence  ==  [647 frames] -56.7707 [Ac=-36730.7 LM=0.0] (Act=13.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081125-025913-1227581877.16/mfc/vf3-15.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A BIG CANVAS TENT WAS THE FIRST THING TO COME WITHIN HIS VISION silence  ==  [688 frames] -57.0005 [Ac=-39216.3 LM=0.0] (Act=17.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

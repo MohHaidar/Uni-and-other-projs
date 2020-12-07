@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/20070912-064948-1189579753.5416/mfc/vf7-11.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I MAY MANAGE TO FREIGHT A CARGO BACK AS WELL silence  ==  [531 frames] -57.3448 [Ac=-30450.1 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/20070912-064948-1189579753.5416/mfc/vf7-12.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence O'BRIEN HAD BEEN A CLEAN LIVING YOUNG MAN WITH IDEALS silence  ==  [637 frames] -55.8691 [Ac=-35588.6 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/20070912-064948-1189579753.5416/mfc/vf7-13.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE IT WAS THAT LIVED TO FOUND THE FAMILY OF THE PATINO silence  ==  [647 frames] -55.7881 [Ac=-36094.9 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/20070912-064948-1189579753.5416/mfc/vf7-14.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence STRAIGHT OUT THEY SWAM THEIR HEADS GROWING SMALLER AND SMALLER silence  ==  [651 frames] -57.2939 [Ac=-37298.4 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/20070912-064948-1189579753.5416/mfc/vf7-15.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU WON'T DIE OF MALNUTRITION BE SURE OF THAT silence  ==  [551 frames] -57.3034 [Ac=-31574.2 LM=0.0] (Act=10.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

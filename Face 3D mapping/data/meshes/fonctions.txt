@@ -1,0 +1,3 @@
+center = @(x)[mean(x.Location(:,1)) mean(x.Location(:,2)) mean(x.Location(:,3))];
+
+metricDist = @(face,point)sqrt(sum([point findZ(point,face.pointCloud)] - face.Center ) .^ 2);

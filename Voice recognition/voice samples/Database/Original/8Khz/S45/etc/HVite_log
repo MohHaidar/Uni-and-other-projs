@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-21.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence BUT ALL MY DREAMS VIOLATED THIS LAW silence  ==  [577 frames] -56.7127 [Ac=-32723.2 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-22.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT IS VERY PLAUSIBLE TO SUCH PEOPLE A MOST CONVINCING HYPOTHESIS silence  ==  [709 frames] -58.6897 [Ac=-41611.0 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-25.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THEY HAD NO FIXED VALUES TO BE ALTERED BY ADJECTIVES AND ADVERBS silence  ==  [649 frames] -59.3714 [Ac=-38532.1 LM=0.0] (Act=14.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-26.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE WAS PRESSING BEYOND THE LIMITS OF HIS VOCABULARY silence  ==  [425 frames] -59.1188 [Ac=-25125.5 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-27.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence VERY EARLY IN MY LIFE I SEPARATED FROM MY MOTHER silence  ==  [516 frames] -56.5165 [Ac=-29162.5 LM=0.0] (Act=14.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-29.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WHITE LEGHORNS SAID MRS MORTIMER silence  ==  [367 frames] -56.5200 [Ac=-20742.8 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-31.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THEREFORE HURRAH FOR THE GAME silence  ==  [329 frames] -58.2871 [Ac=-19176.5 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-32.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT LIVED IN PERPETUAL APPREHENSION OF THAT QUARTER OF THE COMPASS silence  ==  [562 frames] -59.1708 [Ac=-33254.0 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-33.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence BROKEN-TOOTH YELLED WITH FRIGHT AND PAIN silence  ==  [376 frames] -58.3196 [Ac=-21928.2 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081108-055427-1226123624.562/mfc/vf8-37.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HE WAS A WISE HYENA silence  ==  [266 frames] -55.8658 [Ac=-14860.3 LM=0.0] (Act=10.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

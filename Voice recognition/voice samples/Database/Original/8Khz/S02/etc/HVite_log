@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 36 physical / 36 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070411-033712-1176262604.15/mfc/vf3-16.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence PERHAPS SHE HAD ALREADY MET HER FATE A LITTLE DEEPER IN THE FOREST silence  ==  [624 frames] -56.6535 [Ac=-35351.8 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070411-033712-1176262604.15/mfc/vf3-17.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THEN YOU CAN ARRANGE YOURSELF COMFORTABLY AMONG THESE ROBES IN THE BOW silence  ==  [549 frames] -58.1489 [Ac=-31923.7 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070411-033712-1176262604.15/mfc/vf3-18.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence SHALL I CARRY YOU silence  ==  [336 frames] -53.8361 [Ac=-18088.9 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070411-033712-1176262604.15/mfc/vf3-19.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence A MADDENING JOY POUNDED IN HIS BRAIN silence  ==  [453 frames] -56.1629 [Ac=-25441.8 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070411-033712-1176262604.15/mfc/vf3-20.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence YOU MUST SLEEP HE URGED silence  ==  [363 frames] -56.2470 [Ac=-20417.7 LM=0.0] (Act=8.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

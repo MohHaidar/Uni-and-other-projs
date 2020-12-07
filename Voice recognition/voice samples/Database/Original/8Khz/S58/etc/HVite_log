@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THEY HANDLED TWO MEN ALREADY BOTH GRUB-THIEVES silence  ==  [883 frames] -58.3540 [Ac=-51526.5 LM=0.0] (Act=14.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-27.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ELI HARDING ASKED AS SHUNK STARTED TO FOLLOW silence  ==  [617 frames] -59.4940 [Ac=-36707.8 LM=0.0] (Act=15.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-28.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence NOW GO AHEAD AND TELL ME IN A STRAIGHTFORWARD WAY WHAT HAS HAPPENED silence  ==  [685 frames] -58.4368 [Ac=-40029.2 LM=0.0] (Act=15.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-29.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT'S WHERE THEY CUT OFF THE SCOTTISH CHIEFS AND KILLED ALL HANDS silence  ==  [621 frames] -60.5232 [Ac=-37584.9 LM=0.0] (Act=15.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-30.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND AFTER THE BATH A SHAVE WOULD NOT BE BAD silence  ==  [531 frames] -58.7225 [Ac=-31181.7 LM=0.0] (Act=18.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-31.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW PLEASE GIVE A PLAIN STATEMENT OF WHAT OCCURRED silence  ==  [503 frames] -59.6023 [Ac=-29980.0 LM=0.0] (Act=15.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-32.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU CAN TAKE A VACATION ON PAY silence  ==  [541 frames] -60.1316 [Ac=-32531.2 LM=0.0] (Act=14.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-33.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY ARE BIG TREES AND REQUIRE PLENTY OF ROOM silence  ==  [497 frames] -59.7509 [Ac=-29696.2 LM=0.0] (Act=13.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-34.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND RAOUL LISTENED AGAIN TO THE TALE OF THE HOUSE silence  ==  [471 frames] -61.3556 [Ac=-28898.5 LM=0.0] (Act=15.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090312-134153-1236865270.1846/mfc/vf7-35.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THERE ARE NO KIDDIES AND HALF GROWN YOUTHS AMONG THEM silence  ==  [563 frames] -60.1087 [Ac=-33841.2 LM=0.0] (Act=14.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

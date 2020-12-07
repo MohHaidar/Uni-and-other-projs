@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090111-180553-1231697118.514/mfc/vf4-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence OF COURSE THAT IS UNINTERESTING SHE CONTINUED silence  ==  [669 frames] -60.1219 [Ac=-40221.5 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090111-180553-1231697118.514/mfc/vf4-27.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A MOMENT BEFORE HE WAS INTOXICATED BY A JOY THAT WAS ALMOST MADNESS silence  ==  [773 frames] -60.6416 [Ac=-46875.9 LM=0.0] (Act=15.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090111-180553-1231697118.514/mfc/vf4-28.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW THESE THINGS HAD BEEN STRUCK DEAD WITHIN HIM silence  ==  [617 frames] -57.4742 [Ac=-35461.6 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090111-180553-1231697118.514/mfc/vf4-29.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence FOR AN INSTANT HE SAW PIERRE DRAWN LIKE A SILHOUETTE AGAINST THE SKY silence  ==  [713 frames] -61.1967 [Ac=-43633.3 LM=0.0] (Act=14.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090111-180553-1231697118.514/mfc/vf4-30.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence GOODBYE PIERRE HE SHOUTED silence  ==  [551 frames] -57.8990 [Ac=-31902.4 LM=0.0] (Act=11.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

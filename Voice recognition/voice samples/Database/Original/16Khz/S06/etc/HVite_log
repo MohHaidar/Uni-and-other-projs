@@ -1,0 +1,93 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/macros -H /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/8Q_XQYGHkM/words.mlf -i /tmp/8Q_XQYGHkM/aligned.out -S /tmp/8Q_XQYGHkM/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 15951 physical / 24402 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0001.wav
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END PLEASE RESPOND TO ME AS SOON AS POSSIBLE WITH YOUR COMMENTS AND PLEASE PASS IT ON TO ANYONE ELSE WHO NEEDS TO SEE IT SENT-END  ==  [1009 frames] -57.2273 [Ac=-57742.4 LM=0.0] (Act=14.9)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0002.wav
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END HERE IS MY STAB AT THE TALKING POINTS TO BE SENT IN ALONG WITH THE PRICING INFO THEY REQUESTED FOR THE CALIFORNIA MARKETS SENT-END  ==  [1053 frames] -57.3901 [Ac=-60431.8 LM=0.0] (Act=16.2)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0003.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END I WILL BE OUT OF THE OFFICE ON THURSDAY I WILL TALK TO YOU ON FRIDAY SENT-END  ==  [630 frames] -56.3974 [Ac=-35530.3 LM=0.0] (Act=15.9)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0004.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END ATTACHED PLEASE FIND THE SPREADSHEET CONTAINING THE ABOVE REFERENCED INFORMATION SENT-END  ==  [688 frames] -55.2945 [Ac=-38042.6 LM=0.0] (Act=14.3)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0005.wav
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END I RECEIVED THE DRAWINGS THEY LOOK GOOD AT FIRST GLANCE I WILL LOOK AT THEM IN DEPTH THIS WEEKEND SENT-END  ==  [732 frames] -58.2124 [Ac=-42611.4 LM=0.0] (Act=19.4)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0006.wav
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END DOES THIS FILE HAVE A TIMELINE FOR THE INVESTMENT DOLLARS I JUST WANT TO GET A FEEL FOR WHEN YOU WILL START NEEDING MONEY SENT-END  ==  [922 frames] -57.9758 [Ac=-53453.7 LM=0.0] (Act=20.5)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0007.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END I LOOKED OVER THE PLAN IT LOOKS FINE SENT-END  ==  [481 frames] -53.5277 [Ac=-25746.8 LM=0.0] (Act=11.9)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0008.wav
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END DO I NEED TO GIVE YOU THE NAMES OF OUR OPERATIONS GROUP LET ME KNOW IF THERE IS ANYTHING ELSE YOU NEED SENT-END  ==  [826 frames] -57.0476 [Ac=-47121.3 LM=0.0] (Act=17.7)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0009.wav
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END I WILL BE RELOCATING EFFECTIVE DECEMBER FOURTH CAN YOU HAVE ME SET UP WITH ALL THE REQUIRED EQUIPMENT INCLUDING PC TELEPHONE AND CELL PHONE SENT-END  ==  [1039 frames] -57.8387 [Ac=-60094.4 LM=0.0] (Act=18.1)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0010.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END JUST A NOTE TO CHECK IN ARE THERE ANY NEW DEVELOPMENTS SENT-END  ==  [567 frames] -54.2548 [Ac=-30762.5 LM=0.0] (Act=14.5)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0011.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END HERE IS YOUR HOTEL ITINERARY FOR MONDAY NIGHT SENT-END  ==  [504 frames] -54.5433 [Ac=-27489.8 LM=0.0] (Act=14.8)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0012.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END AS NOTED IN MY LAST E-MAIL THE EXPANSION PROJECT IN COLORADO HAD THE INCORRECT START DATE SENT-END  ==  [789 frames] -58.1382 [Ac=-45871.0 LM=0.0] (Act=21.8)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0013.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END YOUR ATTACHMENT IS NOT OPENING ON MY COMPUTER CAN YOU PUT THE INFO IN WORD INSTEAD SENT-END  ==  [676 frames] -57.3920 [Ac=-38797.0 LM=0.0] (Act=24.3)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0014.wav
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END PLEASE EXCUSE THE DELAY IN GETTING THESE RESUMES TO YOU LARRY DID NOT HAVE HIS PREPARED AND THEN I FORGOT TO SEND THEM SENT-END  ==  [892 frames] -58.4433 [Ac=-52131.4 LM=0.0] (Act=24.9)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0015.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END I'LL TRY TO GET A STATUS REPORT TO YOU LATTER TODAY SENT-END  ==  [603 frames] -55.2675 [Ac=-33326.3 LM=0.0] (Act=14.1)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0016.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END CAN YOU FILL IT IN YOURSELF I WILL SIGN IT SENT-END  ==  [555 frames] -52.9345 [Ac=-29378.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0017.wav
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END IS YOUR UNDERSTANDING THAT THE WEST DESK WILL RECEIVE ORIGINATION EACH MONTH BASED ON THE SCHEDULE BELOW SENT-END  ==  [814 frames] -57.6258 [Ac=-46907.4 LM=0.0] (Act=17.2)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0018.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END THANK YOU FOR THE UPDATE THE NEED IS STILL GREAT FOR THIS DISK SPACE SENT-END  ==  [726 frames] -55.6379 [Ac=-40393.1 LM=0.0] (Act=13.8)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0019.wav
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END I SPOKE TO JEFF HE SAID HE WOULD NOT PAY ANYTHING I AM WAITING FOR JOHN TO BE IN A GOOD MOOD TO ASK SENT-END  ==  [935 frames] -55.6433 [Ac=-52026.5 LM=0.0] (Act=14.5)
+Aligning File: /tmp/8Q_XQYGHkM/maheshchandra-20160719-e01/e0020.wav
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END THANKS SO MUCH FOR PULLING TOGETHER THE NOVEMBER INFORMATION AND GETTING IT TO US WITH SO MUCH DETAIL WELL BEFORE OUR DEADLINE SENT-END  ==  [957 frames] -57.0161 [Ac=-54564.4 LM=0.0] (Act=19.1)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

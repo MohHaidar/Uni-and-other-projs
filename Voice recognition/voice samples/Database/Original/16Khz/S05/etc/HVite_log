@@ -1,0 +1,940 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Nightly_Builds/AcousticModel-2016-07-21/HTK/16kHz_16bit/MFCC_O_D/macros -H /data/svn-mirror/Nightly_Builds/AcousticModel-2016-07-21/HTK/16kHz_16bit/MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/otho2NLRfe/words.mlf -i /tmp/otho2NLRfe/aligned.out -S /tmp/otho2NLRfe/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Nightly_Builds/AcousticModel-2016-07-21/HTK/16kHz_16bit/MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 16004 physical / 24402 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence1.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN OFF PLAY STATION SENT-END  ==  [217 frames] -63.2532 [Ac=-13726.0 LM=0.0] (Act=12.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence10.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [202 frames] -59.8079 [Ac=-12081.2 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence100.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN OFF P S FOUR SENT-END  ==  [277 frames] -61.9913 [Ac=-17171.6 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence101.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH OFF LIGHT TWO SENT-END  ==  [205 frames] -65.3745 [Ac=-13401.8 LM=0.0] (Act=11.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence102.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DOWN FAN SENT-END  ==  [193 frames] -60.5757 [Ac=-11691.1 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence103.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [154 frames] -61.5225 [Ac=-9474.5 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence104.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD NIGHT JESSIE SENT-END  ==  [170 frames] -60.4419 [Ac=-10275.1 LM=0.0] (Act=13.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence105.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [181 frames] -61.7047 [Ac=-11168.5 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence106.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [172 frames] -61.8768 [Ac=-10642.8 LM=0.0] (Act=13.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence107.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DISH ON SENT-END  ==  [193 frames] -61.0462 [Ac=-11781.9 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence108.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD NIGHT SENT-END  ==  [133 frames] -59.7812 [Ac=-7950.9 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence109.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [161 frames] -62.1795 [Ac=-10010.9 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence11.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [201 frames] -58.5745 [Ac=-11773.5 LM=0.0] (Act=9.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence110.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DATE TOMORROW SENT-END  ==  [222 frames] -60.5435 [Ac=-13440.7 LM=0.0] (Act=14.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence111.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [176 frames] -61.1548 [Ac=-10763.2 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence112.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [172 frames] -61.4415 [Ac=-10567.9 LM=0.0] (Act=11.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence113.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [171 frames] -60.7258 [Ac=-10384.1 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence114.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [170 frames] -60.1497 [Ac=-10225.4 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence115.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [171 frames] -59.8424 [Ac=-10233.0 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence116.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [158 frames] -62.3139 [Ac=-9845.6 LM=0.0] (Act=13.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence117.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [159 frames] -61.5787 [Ac=-9791.0 LM=0.0] (Act=14.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence118.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [107 frames] -59.2217 [Ac=-6336.7 LM=0.0] (Act=8.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence119.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [165 frames] -63.0260 [Ac=-10399.3 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence12.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DOWN FAN SENT-END  ==  [208 frames] -58.8240 [Ac=-12235.4 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence120.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN OFF PLAY STATION SENT-END  ==  [210 frames] -60.9537 [Ac=-12800.3 LM=0.0] (Act=13.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence121.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [157 frames] -58.9493 [Ac=-9255.0 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence122.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF DISH SENT-END  ==  [171 frames] -60.6654 [Ac=-10373.8 LM=0.0] (Act=8.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence123.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [168 frames] -64.3547 [Ac=-10811.6 LM=0.0] (Act=13.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence124.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD MORNING SENT-END  ==  [166 frames] -57.3841 [Ac=-9525.8 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence125.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [155 frames] -62.0614 [Ac=-9619.5 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence126.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [176 frames] -60.5196 [Ac=-10651.5 LM=0.0] (Act=11.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence127.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN OFF PLAY STATION FOUR SENT-END  ==  [255 frames] -61.0311 [Ac=-15562.9 LM=0.0] (Act=13.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence128.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [164 frames] -61.2132 [Ac=-10039.0 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence129.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD AFTERNOON JESSIE SENT-END  ==  [221 frames] -61.4818 [Ac=-13587.5 LM=0.0] (Act=13.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence13.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [188 frames] -59.6676 [Ac=-11217.5 LM=0.0] (Act=11.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence130.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [191 frames] -60.9278 [Ac=-11637.2 LM=0.0] (Act=9.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence131.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD MORNING SENT-END  ==  [147 frames] -58.4631 [Ac=-8594.1 LM=0.0] (Act=11.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence132.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [143 frames] -62.7705 [Ac=-8976.2 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence133.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN ON SENT-END  ==  [179 frames] -58.3623 [Ac=-10446.9 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence134.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [159 frames] -60.6641 [Ac=-9645.6 LM=0.0] (Act=11.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence135.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [183 frames] -59.0051 [Ac=-10797.9 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence136.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DOWN FAN SENT-END  ==  [183 frames] -59.9117 [Ac=-10963.8 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence137.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [187 frames] -60.5109 [Ac=-11315.5 LM=0.0] (Act=12.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence138.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD MORNING SENT-END  ==  [154 frames] -57.5336 [Ac=-8860.2 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence139.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [183 frames] -62.7869 [Ac=-11490.0 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence14.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DATE TOMORROW SENT-END  ==  [226 frames] -60.8944 [Ac=-13762.1 LM=0.0] (Act=14.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence140.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN OFF SENT-END  ==  [170 frames] -61.0015 [Ac=-10370.3 LM=0.0] (Act=9.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence141.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [172 frames] -60.8113 [Ac=-10459.5 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence142.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [173 frames] -58.9835 [Ac=-10204.1 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence143.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [179 frames] -60.9735 [Ac=-10914.2 LM=0.0] (Act=11.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence144.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN ON TELEVISION SENT-END  ==  [203 frames] -60.0526 [Ac=-12190.7 LM=0.0] (Act=13.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence145.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [178 frames] -58.5326 [Ac=-10418.8 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence146.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN T V ON SENT-END  ==  [220 frames] -59.4602 [Ac=-13081.2 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence147.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN OFF SENT-END  ==  [170 frames] -61.9316 [Ac=-10528.4 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence148.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [147 frames] -57.6096 [Ac=-8468.6 LM=0.0] (Act=8.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence149.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD MORNING SENT-END  ==  [150 frames] -62.5658 [Ac=-9384.9 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence15.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [193 frames] -61.1016 [Ac=-11792.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence150.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [176 frames] -59.5887 [Ac=-10487.6 LM=0.0] (Act=9.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence151.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [158 frames] -62.9464 [Ac=-9945.5 LM=0.0] (Act=11.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence152.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [145 frames] -61.3242 [Ac=-8892.0 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence153.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU RUNNING SENT-END  ==  [171 frames] -63.1964 [Ac=-10806.6 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence154.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [172 frames] -62.7297 [Ac=-10789.5 LM=0.0] (Act=13.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence155.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN ON SENT-END  ==  [165 frames] -58.5062 [Ac=-9653.5 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence156.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [180 frames] -61.4145 [Ac=-11054.6 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence157.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH UP FAN SENT-END  ==  [169 frames] -62.6036 [Ac=-10580.0 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence158.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [210 frames] -61.0980 [Ac=-12830.6 LM=0.0] (Act=14.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence159.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [133 frames] -60.8195 [Ac=-8089.0 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence16.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH OFF P S SENT-END  ==  [206 frames] -61.0832 [Ac=-12583.1 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence160.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TOMORROW SENT-END  ==  [215 frames] -59.7949 [Ac=-12855.9 LM=0.0] (Act=13.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence161.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [166 frames] -60.0377 [Ac=-9966.3 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence162.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [162 frames] -62.1281 [Ac=-10064.7 LM=0.0] (Act=15.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence163.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TOMORROW SENT-END  ==  [199 frames] -60.8452 [Ac=-12108.2 LM=0.0] (Act=15.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence164.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN OFF DISH SENT-END  ==  [138 frames] -61.6158 [Ac=-8503.0 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence165.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH LIGHT TWO ON SENT-END  ==  [185 frames] -63.2669 [Ac=-11704.4 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence166.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [149 frames] -64.2979 [Ac=-9580.4 LM=0.0] (Act=9.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence167.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [168 frames] -61.9373 [Ac=-10405.5 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence168.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DAY IS IT SENT-END  ==  [174 frames] -61.4280 [Ac=-10688.5 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence169.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [115 frames] -59.2746 [Ac=-6816.6 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence17.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [149 frames] -58.7381 [Ac=-8752.0 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence170.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [135 frames] -61.9011 [Ac=-8356.6 LM=0.0] (Act=12.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence171.wav
+Created lattice with 5 nodes / 4 arcs from label file
+No tokens survived to final node of network at beam 250.0
+No tokens survived to final node of network at beam 400.0
+No tokens survived to final node of network at beam 550.0
+No tokens survived to final node of network at beam 700.0
+No tokens survived to final node of network at beam 850.0
+No tokens survived to final node of network
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence172.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [144 frames] -61.5343 [Ac=-8860.9 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence173.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [171 frames] -59.8276 [Ac=-10230.5 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence174.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN UP SENT-END  ==  [145 frames] -61.2100 [Ac=-8875.4 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence175.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [195 frames] -63.8072 [Ac=-12442.4 LM=0.0] (Act=14.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence176.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD EVENING JESSIE SENT-END  ==  [176 frames] -60.1730 [Ac=-10590.4 LM=0.0] (Act=13.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence177.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN UP SENT-END  ==  [151 frames] -63.8164 [Ac=-9636.3 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence178.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH ON LIGHT ONE SENT-END  ==  [176 frames] -61.9553 [Ac=-10904.1 LM=0.0] (Act=11.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence179.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [181 frames] -61.3067 [Ac=-11096.5 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence18.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [123 frames] -59.7520 [Ac=-7349.5 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence180.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD MORNING JESSIE SENT-END  ==  [147 frames] -62.3325 [Ac=-9162.9 LM=0.0] (Act=13.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence181.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH DISH T V ON SENT-END  ==  [210 frames] -62.9515 [Ac=-13219.8 LM=0.0] (Act=13.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence182.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD EVENING SENT-END  ==  [136 frames] -62.6312 [Ac=-8517.8 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence183.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN ON SENT-END  ==  [159 frames] -61.4615 [Ac=-9772.4 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence184.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [130 frames] -62.0199 [Ac=-8062.6 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence185.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD EVENING SENT-END  ==  [156 frames] -57.8192 [Ac=-9019.8 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence186.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [155 frames] -58.4263 [Ac=-9056.1 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence187.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [195 frames] -60.1381 [Ac=-11726.9 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence188.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [151 frames] -60.9968 [Ac=-9210.5 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence189.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH SET TOP BOX OFF SENT-END  ==  [252 frames] -59.3754 [Ac=-14962.6 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence19.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN ON SENT-END  ==  [193 frames] -58.8031 [Ac=-11349.0 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence190.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [180 frames] -58.5362 [Ac=-10536.5 LM=0.0] (Act=9.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence191.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD NIGHT SENT-END  ==  [169 frames] -57.6333 [Ac=-9740.0 LM=0.0] (Act=8.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence192.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [215 frames] -58.3358 [Ac=-12542.2 LM=0.0] (Act=12.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence193.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH T V OFF SENT-END  ==  [259 frames] -59.6284 [Ac=-15443.8 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence194.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [219 frames] -56.8068 [Ac=-12440.7 LM=0.0] (Act=8.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence195.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU RUNNING SENT-END  ==  [222 frames] -60.4159 [Ac=-13412.3 LM=0.0] (Act=9.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence196.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [239 frames] -56.8734 [Ac=-13592.7 LM=0.0] (Act=9.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence197.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH UP FAN SENT-END  ==  [234 frames] -58.0976 [Ac=-13594.8 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence198.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [197 frames] -57.2196 [Ac=-11272.3 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence199.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [244 frames] -57.7370 [Ac=-14087.8 LM=0.0] (Act=8.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence2.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN OFF P S SENT-END  ==  [275 frames] -59.7059 [Ac=-16419.1 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence20.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU RUNNING SENT-END  ==  [191 frames] -61.4328 [Ac=-11733.7 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence200.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [235 frames] -59.3706 [Ac=-13952.1 LM=0.0] (Act=11.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence201.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [209 frames] -58.1115 [Ac=-12145.3 LM=0.0] (Act=9.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence202.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [250 frames] -59.3223 [Ac=-14830.6 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence203.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [198 frames] -59.9596 [Ac=-11872.0 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence204.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DATE TOMORROW SENT-END  ==  [274 frames] -59.2020 [Ac=-16221.4 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence205.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DOWN FAN SENT-END  ==  [227 frames] -58.6379 [Ac=-13310.8 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence206.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [209 frames] -61.7892 [Ac=-12913.9 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence207.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [259 frames] -57.6966 [Ac=-14943.4 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence208.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH DISH T V OFF SENT-END  ==  [284 frames] -63.6020 [Ac=-18063.0 LM=0.0] (Act=12.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence209.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [228 frames] -58.3504 [Ac=-13303.9 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence21.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [136 frames] -56.7268 [Ac=-7714.8 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence210.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [220 frames] -61.1140 [Ac=-13445.1 LM=0.0] (Act=9.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence211.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [259 frames] -61.4627 [Ac=-15918.8 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence212.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [168 frames] -59.9505 [Ac=-10071.7 LM=0.0] (Act=8.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence213.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DISH ON SENT-END  ==  [215 frames] -60.7950 [Ac=-13070.9 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence214.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [215 frames] -59.8333 [Ac=-12864.1 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence215.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD MORNING JESSIE SENT-END  ==  [243 frames] -58.7369 [Ac=-14273.1 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence216.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [186 frames] -57.9661 [Ac=-10781.7 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence217.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [210 frames] -61.2233 [Ac=-12856.9 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence218.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [223 frames] -58.7255 [Ac=-13095.8 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence219.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [224 frames] -58.3115 [Ac=-13061.8 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence22.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [179 frames] -60.6495 [Ac=-10856.3 LM=0.0] (Act=12.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence220.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DOWN FAN SENT-END  ==  [231 frames] -57.5903 [Ac=-13303.4 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence221.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH SET TOP BOX OFF SENT-END  ==  [293 frames] -60.0475 [Ac=-17593.9 LM=0.0] (Act=12.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence222.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DISH OFF SENT-END  ==  [241 frames] -58.6467 [Ac=-14133.9 LM=0.0] (Act=9.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence223.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH ON P S FOUR SENT-END  ==  [307 frames] -60.2828 [Ac=-18506.8 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence224.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH SET TOP BOX ON SENT-END  ==  [310 frames] -58.7192 [Ac=-18203.0 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence225.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [207 frames] -62.3029 [Ac=-12896.7 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence226.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [296 frames] -63.0555 [Ac=-18664.4 LM=0.0] (Act=11.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence227.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [208 frames] -59.7896 [Ac=-12436.2 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence228.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU RUNNING SENT-END  ==  [222 frames] -57.5462 [Ac=-12775.3 LM=0.0] (Act=9.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence229.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN ON SET TOP BOX SENT-END  ==  [270 frames] -60.6615 [Ac=-16378.6 LM=0.0] (Act=12.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence23.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [178 frames] -59.7597 [Ac=-10637.2 LM=0.0] (Act=9.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence230.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DOWN FAN SENT-END  ==  [223 frames] -60.1706 [Ac=-13418.0 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence231.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [191 frames] -59.8578 [Ac=-11432.8 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence232.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD EVENING SENT-END  ==  [207 frames] -57.3635 [Ac=-11874.2 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence233.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [183 frames] -59.3820 [Ac=-10866.9 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence234.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN ON FAN SENT-END  ==  [230 frames] -57.3900 [Ac=-13199.7 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence235.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN UP SENT-END  ==  [214 frames] -60.3597 [Ac=-12917.0 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence236.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DOWN FAN SENT-END  ==  [251 frames] -57.7020 [Ac=-14483.2 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence237.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN ON SENT-END  ==  [249 frames] -57.6009 [Ac=-14342.6 LM=0.0] (Act=9.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence238.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [243 frames] -59.3241 [Ac=-14415.8 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence239.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [231 frames] -58.3711 [Ac=-13483.7 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence24.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [212 frames] -60.7704 [Ac=-12883.3 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence240.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [213 frames] -58.4862 [Ac=-12457.6 LM=0.0] (Act=8.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence241.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [210 frames] -59.1146 [Ac=-12414.1 LM=0.0] (Act=10.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence242.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [202 frames] -57.9577 [Ac=-11707.5 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence243.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH P S ON SENT-END  ==  [278 frames] -58.5857 [Ac=-16286.8 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence244.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [241 frames] -57.7673 [Ac=-13921.9 LM=0.0] (Act=9.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence245.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [239 frames] -58.3134 [Ac=-13936.9 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence246.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [237 frames] -57.8670 [Ac=-13714.5 LM=0.0] (Act=11.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence247.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [191 frames] -63.5806 [Ac=-12143.9 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence248.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN OFF TELEVISION SENT-END  ==  [256 frames] -58.0895 [Ac=-14870.9 LM=0.0] (Act=12.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence249.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [206 frames] -57.9051 [Ac=-11928.5 LM=0.0] (Act=9.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence25.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [201 frames] -58.1057 [Ac=-11679.2 LM=0.0] (Act=12.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence250.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN UP SENT-END  ==  [215 frames] -59.0147 [Ac=-12688.2 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence251.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU RUNNING SENT-END  ==  [229 frames] -57.3379 [Ac=-13130.4 LM=0.0] (Act=8.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence252.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [223 frames] -61.8292 [Ac=-13787.9 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence253.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [212 frames] -57.6490 [Ac=-12221.6 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence254.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [245 frames] -56.8045 [Ac=-13917.1 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence255.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [197 frames] -55.7691 [Ac=-10986.5 LM=0.0] (Act=8.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence256.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DISH OFF SENT-END  ==  [221 frames] -58.9093 [Ac=-13019.0 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence257.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN ON P S SENT-END  ==  [245 frames] -59.4821 [Ac=-14573.1 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence258.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [208 frames] -59.6048 [Ac=-12397.8 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence259.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [214 frames] -58.4547 [Ac=-12509.3 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence26.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN ON P S FOUR SENT-END  ==  [251 frames] -60.4905 [Ac=-15183.1 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence260.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [227 frames] -56.9342 [Ac=-12924.1 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence261.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH SET TOP BOX ON SENT-END  ==  [317 frames] -60.3053 [Ac=-19116.8 LM=0.0] (Act=14.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence262.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [245 frames] -58.8523 [Ac=-14418.8 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence263.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [234 frames] -56.8315 [Ac=-13298.6 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence264.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU AWAKE SENT-END  ==  [289 frames] -59.8504 [Ac=-17296.8 LM=0.0] (Act=8.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence265.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [209 frames] -59.7140 [Ac=-12480.2 LM=0.0] (Act=9.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence266.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN ON PLAY STATION SENT-END  ==  [289 frames] -58.4950 [Ac=-16905.0 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence267.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN UP SENT-END  ==  [215 frames] -58.6451 [Ac=-12608.7 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence268.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [221 frames] -57.8579 [Ac=-12786.6 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence269.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [207 frames] -58.3730 [Ac=-12083.2 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence27.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH LIGHT TWO ON SENT-END  ==  [243 frames] -61.9725 [Ac=-15059.3 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence270.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH UP FAN SENT-END  ==  [207 frames] -58.0995 [Ac=-12026.6 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence271.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [226 frames] -58.2193 [Ac=-13157.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence272.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [181 frames] -58.0740 [Ac=-10511.4 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence273.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [202 frames] -58.6597 [Ac=-11849.3 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence274.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH ON SET TOP BOX SENT-END  ==  [298 frames] -59.0342 [Ac=-17592.2 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence275.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN DOWN FAN SENT-END  ==  [220 frames] -58.3864 [Ac=-12845.0 LM=0.0] (Act=11.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence276.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [213 frames] -58.4482 [Ac=-12449.5 LM=0.0] (Act=9.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence277.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [255 frames] -57.8675 [Ac=-14756.2 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence278.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [248 frames] -61.0374 [Ac=-15137.3 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence279.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [227 frames] -58.5460 [Ac=-13289.9 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence28.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [197 frames] -59.4510 [Ac=-11711.8 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence280.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD NIGHT JESSIE SENT-END  ==  [236 frames] -57.4186 [Ac=-13550.8 LM=0.0] (Act=10.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence281.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SWITCH SET TOP BOX OFF SENT-END  ==  [303 frames] -60.5054 [Ac=-18333.1 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence282.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [208 frames] -58.8022 [Ac=-12230.9 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence283.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [166 frames] -57.2926 [Ac=-9510.6 LM=0.0] (Act=8.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence284.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD NIGHT SENT-END  ==  [178 frames] -58.0444 [Ac=-10331.9 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence285.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN OFF SENT-END  ==  [210 frames] -59.2068 [Ac=-12433.4 LM=0.0] (Act=9.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence286.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [228 frames] -57.9635 [Ac=-13215.7 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence287.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [203 frames] -60.1003 [Ac=-12200.4 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence288.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN OFF FAN SENT-END  ==  [217 frames] -59.1642 [Ac=-12838.6 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence289.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [203 frames] -58.7066 [Ac=-11917.4 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence29.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [196 frames] -62.8671 [Ac=-12322.0 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence290.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [249 frames] -60.3560 [Ac=-15028.6 LM=0.0] (Act=9.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence291.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH ON FAN SENT-END  ==  [233 frames] -58.0595 [Ac=-13527.9 LM=0.0] (Act=9.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence292.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [238 frames] -57.9442 [Ac=-13790.7 LM=0.0] (Act=11.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence293.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [233 frames] -59.5663 [Ac=-13879.0 LM=0.0] (Act=11.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence294.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [224 frames] -61.1575 [Ac=-13699.3 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence295.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [180 frames] -58.9448 [Ac=-10610.1 LM=0.0] (Act=8.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence296.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [246 frames] -60.1440 [Ac=-14795.4 LM=0.0] (Act=9.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence297.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN ON SET TOP BOX SENT-END  ==  [314 frames] -58.7908 [Ac=-18460.3 LM=0.0] (Act=12.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence298.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [216 frames] -56.1807 [Ac=-12135.0 LM=0.0] (Act=9.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence299.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [237 frames] -58.6643 [Ac=-13903.4 LM=0.0] (Act=9.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence3.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [289 frames] -59.2391 [Ac=-17120.1 LM=0.0] (Act=9.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence30.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [190 frames] -60.8211 [Ac=-11556.0 LM=0.0] (Act=12.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence300.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [278 frames] -57.2816 [Ac=-15924.3 LM=0.0] (Act=10.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence31.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN OFF P S SENT-END  ==  [209 frames] -60.0831 [Ac=-12557.4 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence32.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH TELEVISION ON SENT-END  ==  [248 frames] -60.4978 [Ac=-15003.5 LM=0.0] (Act=13.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence33.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [173 frames] -64.7462 [Ac=-11201.1 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence34.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN SET TOP BOX OFF SENT-END  ==  [279 frames] -60.0883 [Ac=-16764.6 LM=0.0] (Act=13.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence35.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [194 frames] -63.1444 [Ac=-12250.0 LM=0.0] (Act=12.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence36.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [185 frames] -58.9630 [Ac=-10908.2 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence37.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ARE YOU WORKING SENT-END  ==  [173 frames] -61.5970 [Ac=-10656.3 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence38.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [180 frames] -61.6568 [Ac=-11098.2 LM=0.0] (Act=14.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence39.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN ON FAN SENT-END  ==  [194 frames] -59.1583 [Ac=-11476.7 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence4.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD NIGHT SENT-END  ==  [198 frames] -58.5849 [Ac=-11599.8 LM=0.0] (Act=9.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence40.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN OFF DISH T V SENT-END  ==  [228 frames] -59.1155 [Ac=-13478.3 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence41.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN OFF LIGHT ONE SENT-END  ==  [223 frames] -58.7409 [Ac=-13099.2 LM=0.0] (Act=14.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence42.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [170 frames] -61.8058 [Ac=-10507.0 LM=0.0] (Act=13.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence43.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [177 frames] -61.1214 [Ac=-10818.5 LM=0.0] (Act=9.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence44.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END TURN OFF P S FOUR SENT-END  ==  [236 frames] -61.2929 [Ac=-14465.1 LM=0.0] (Act=13.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence45.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [176 frames] -61.9688 [Ac=-10906.5 LM=0.0] (Act=11.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence46.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [122 frames] -65.9031 [Ac=-8040.2 LM=0.0] (Act=11.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence47.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [165 frames] -62.5556 [Ac=-10321.7 LM=0.0] (Act=9.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence48.wav
+Created lattice with 6 nodes / 5 arcs from label file
+No tokens survived to final node of network at beam 250.0
+No tokens survived to final node of network at beam 400.0
+SENT-END WHAT IS THE DATE SENT-END  ==  [158 frames] -65.1630 [Ac=-10295.8 LM=0.0] (Act=15.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence49.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [171 frames] -58.2639 [Ac=-9963.1 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence5.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [237 frames] -58.7420 [Ac=-13921.9 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence50.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END TURN T V ON SENT-END  ==  [216 frames] -58.6002 [Ac=-12657.7 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence51.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD MORNING SENT-END  ==  [166 frames] -58.9203 [Ac=-9780.8 LM=0.0] (Act=12.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence52.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH ON LIGHT ONE SENT-END  ==  [185 frames] -62.3715 [Ac=-11538.7 LM=0.0] (Act=12.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence53.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [197 frames] -60.3627 [Ac=-11891.4 LM=0.0] (Act=14.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence54.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [187 frames] -60.9477 [Ac=-11397.2 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence55.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [191 frames] -58.6723 [Ac=-11206.4 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence56.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END GOOD AFTERNOON SENT-END  ==  [181 frames] -58.2859 [Ac=-10549.7 LM=0.0] (Act=14.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence57.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [183 frames] -64.1694 [Ac=-11743.0 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence58.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [190 frames] -60.5247 [Ac=-11499.7 LM=0.0] (Act=10.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence59.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [208 frames] -59.8391 [Ac=-12446.5 LM=0.0] (Act=14.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence6.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [216 frames] -60.0568 [Ac=-12972.3 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence60.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [138 frames] -57.4126 [Ac=-7922.9 LM=0.0] (Act=8.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence61.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [152 frames] -62.3927 [Ac=-9483.7 LM=0.0] (Act=11.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence62.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [127 frames] -59.7867 [Ac=-7592.9 LM=0.0] (Act=8.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence63.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [166 frames] -60.3705 [Ac=-10021.5 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence64.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH LIGHT TWO ON SENT-END  ==  [216 frames] -62.5300 [Ac=-13506.5 LM=0.0] (Act=12.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence65.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [204 frames] -60.7156 [Ac=-12386.0 LM=0.0] (Act=13.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence66.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN UP FAN SENT-END  ==  [205 frames] -59.0472 [Ac=-12104.7 LM=0.0] (Act=11.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence67.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [179 frames] -61.7206 [Ac=-11048.0 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence68.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [207 frames] -60.5990 [Ac=-12544.0 LM=0.0] (Act=12.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence69.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT TIME IS IT SENT-END  ==  [201 frames] -61.5395 [Ac=-12369.4 LM=0.0] (Act=13.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence7.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TOMORROW SENT-END  ==  [246 frames] -63.3806 [Ac=-15591.6 LM=0.0] (Act=13.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence70.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN UP SENT-END  ==  [172 frames] -59.6612 [Ac=-10261.7 LM=0.0] (Act=12.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence71.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [158 frames] -62.7156 [Ac=-9909.1 LM=0.0] (Act=10.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence72.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [191 frames] -58.5224 [Ac=-11177.8 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence73.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [156 frames] -62.0186 [Ac=-9674.9 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence74.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [157 frames] -59.8751 [Ac=-9400.4 LM=0.0] (Act=11.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence75.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [172 frames] -60.2122 [Ac=-10356.5 LM=0.0] (Act=11.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence76.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END JESSIE WAKE UP SENT-END  ==  [170 frames] -60.0036 [Ac=-10200.6 LM=0.0] (Act=11.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence77.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN ON SENT-END  ==  [179 frames] -61.2834 [Ac=-10969.7 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence78.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH OFF LIGHT ONE SENT-END  ==  [209 frames] -61.2520 [Ac=-12801.7 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence79.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DAY SENT-END  ==  [176 frames] -60.1286 [Ac=-10582.6 LM=0.0] (Act=11.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence8.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END WAKE UP SENT-END  ==  [157 frames] -59.3002 [Ac=-9310.1 LM=0.0] (Act=8.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence80.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHAT IS THE DAY TODAY SENT-END  ==  [209 frames] -61.6491 [Ac=-12884.7 LM=0.0] (Act=13.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence81.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [173 frames] -62.4319 [Ac=-10800.7 LM=0.0] (Act=9.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence82.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT DATE IS IT SENT-END  ==  [179 frames] -61.3670 [Ac=-10984.7 LM=0.0] (Act=13.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence83.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN DOWN SENT-END  ==  [188 frames] -59.4898 [Ac=-11184.1 LM=0.0] (Act=11.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence84.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH DOWN FAN SENT-END  ==  [181 frames] -60.2341 [Ac=-10902.4 LM=0.0] (Act=10.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence85.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD EVENING JESSIE SENT-END  ==  [173 frames] -59.9682 [Ac=-10374.5 LM=0.0] (Act=12.8)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence86.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD NIGHT JESSIE SENT-END  ==  [180 frames] -59.8418 [Ac=-10771.5 LM=0.0] (Act=11.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence87.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH OFF FAN SENT-END  ==  [190 frames] -60.8954 [Ac=-11570.1 LM=0.0] (Act=9.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence88.wav
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HELLO JESSIE SENT-END  ==  [144 frames] -59.9835 [Ac=-8637.6 LM=0.0] (Act=10.2)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence89.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE DATE SENT-END  ==  [186 frames] -58.5069 [Ac=-10882.3 LM=0.0] (Act=11.9)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence9.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [205 frames] -57.6931 [Ac=-11827.1 LM=0.0] (Act=12.0)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence90.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN OFF SENT-END  ==  [180 frames] -59.8647 [Ac=-10775.6 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence91.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END TURN FAN ON SENT-END  ==  [179 frames] -61.2607 [Ac=-10965.7 LM=0.0] (Act=10.6)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence92.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GO TO SLEEP SENT-END  ==  [144 frames] -60.5032 [Ac=-8712.5 LM=0.0] (Act=11.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence93.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH TELEVISION ON SENT-END  ==  [217 frames] -61.4133 [Ac=-13326.7 LM=0.0] (Act=13.1)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence94.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WHAT IS THE TIME SENT-END  ==  [178 frames] -59.4209 [Ac=-10576.9 LM=0.0] (Act=12.5)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence95.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WAKE UP JESSIE SENT-END  ==  [184 frames] -59.6298 [Ac=-10971.9 LM=0.0] (Act=10.7)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence96.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GOOD NIGHT JESSIE SENT-END  ==  [186 frames] -59.0067 [Ac=-10975.2 LM=0.0] (Act=12.3)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence97.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH ON T V SENT-END  ==  [216 frames] -61.9136 [Ac=-13373.3 LM=0.0] (Act=10.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence98.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SWITCH OFF PLAY STATION SENT-END  ==  [220 frames] -62.6297 [Ac=-13778.5 LM=0.0] (Act=11.4)
+Aligning File: /tmp/otho2NLRfe/maheshchandra-16.07.19-com/sentence99.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SWITCH FAN DOWN SENT-END  ==  [183 frames] -60.3301 [Ac=-11040.4 LM=0.0] (Act=10.6)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

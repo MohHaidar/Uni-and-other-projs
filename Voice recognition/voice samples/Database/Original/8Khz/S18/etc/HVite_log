@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 37 physical / 37 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070625-160139-1182787262.2371/mfc/vf6-16.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE OTHER FELT A SUDDEN WAVE OF IRRITATION RUSH THROUGH HIM silence  ==  [639 frames] -57.9381 [Ac=-37022.5 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070625-160139-1182787262.2371/mfc/vf6-17.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence OPPRESSIVE AS THE HEAT HAD BEEN IT WAS NOW EVEN MORE OPPRESSIVE silence  ==  [791 frames] -56.2604 [Ac=-44502.0 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070625-160139-1182787262.2371/mfc/vf6-18.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE RINGING OF THE BIG BELL AROUSED HIM silence  ==  [547 frames] -54.9680 [Ac=-30067.5 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070625-160139-1182787262.2371/mfc/vf6-19.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AT FIRST HE PUZZLED OVER SOMETHING UNTOWARD HE WAS SURE HAD HAPPENED silence  ==  [565 frames] -59.0742 [Ac=-33376.9 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070625-160139-1182787262.2371/mfc/vf6-20.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A DEAD MAN IS OF NO USE ON A PLANTATION silence  ==  [519 frames] -57.2296 [Ac=-29702.2 LM=0.0] (Act=11.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

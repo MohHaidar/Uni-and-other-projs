@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071014-002515-1192321493.6395/mfc/vf8-01.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence I DO NOT BLAME YOU FOR ANYTHING REMEMBER THAT silence  ==  [339 frames] -59.2660 [Ac=-20091.2 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071014-002515-1192321493.6395/mfc/vf8-02.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence IF YOU MEAN TO INSINUATE BRENTWOOD BEGAN HOTLY silence  ==  [431 frames] -58.2844 [Ac=-25120.6 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071014-002515-1192321493.6395/mfc/vf8-03.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE WOMAN IN YOU IS ONLY INCIDENTAL ACCIDENTAL AND IRRELEVANT silence  ==  [489 frames] -59.5347 [Ac=-29112.5 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071014-002515-1192321493.6395/mfc/vf8-04.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THERE WAS NO FORECASTING THIS STRANGE GIRL'S PROCESSES silence  ==  [407 frames] -61.0648 [Ac=-24853.4 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071014-002515-1192321493.6395/mfc/vf8-05.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence BUT WHAT THEY WANT WITH YOUR TOOTHBRUSH IS MORE THAN I CAN IMAGINE silence  ==  [411 frames] -60.6489 [Ac=-24926.7 LM=0.0] (Act=12.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

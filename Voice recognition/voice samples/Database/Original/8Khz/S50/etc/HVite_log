@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 38 physical / 38 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090106-013645-1231205767.332/mfc/vf4-21.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT SEEMS LIKE A STRANGE POINTING OF THE HAND OF GOD silence  ==  [541 frames] -55.1665 [Ac=-29845.1 LM=0.0] (Act=12.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090106-013645-1231205767.332/mfc/vf4-22.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SUCH THINGS HAD OCCURRED BEFORE HE TOLD PHILIP silence  ==  [383 frames] -56.2658 [Ac=-21549.8 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090106-013645-1231205767.332/mfc/vf4-23.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence AH I HAD FORGOTTEN HE EXCLAIMED silence  ==  [431 frames] -54.1255 [Ac=-23328.1 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090106-013645-1231205767.332/mfc/vf4-24.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence BUT THERE WAS SOMETHING EVEN MORE STARTLING THAN THIS RESEMBLANCE silence  ==  [499 frames] -56.7361 [Ac=-28311.3 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090106-013645-1231205767.332/mfc/vf4-25.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I HAVE TO BE CAREFUL OF THEM AS THEY TEAR VERY EASILY silence  ==  [505 frames] -56.4060 [Ac=-28485.0 LM=0.0] (Act=11.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

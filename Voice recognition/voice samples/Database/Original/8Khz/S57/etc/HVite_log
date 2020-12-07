@@ -1,0 +1,181 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 44 physical / 44 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-16.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE OTHER FELT A SUDDEN WAVE OF IRRITATION RUSH THROUGH HIM silence  ==  [653 frames] -57.7137 [Ac=-37687.1 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-17.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence OPPRESSIVE AS THE HEAT HAD BEEN IT WAS NOW EVEN MORE OPPRESSIVE silence  ==  [791 frames] -56.2365 [Ac=-44483.1 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-18.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE RINGING OF THE BIG BELL AROUSED HIM silence  ==  [621 frames] -55.7388 [Ac=-34613.8 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-19.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AT FIRST HE PUZZLED OVER SOMETHING UNTOWARD HE WAS SURE HAD HAPPENED silence  ==  [809 frames] -56.8212 [Ac=-45968.3 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-20.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A DEAD MAN IS OF NO USE ON A PLANTATION silence  ==  [707 frames] -56.0027 [Ac=-39593.9 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-21.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I DON'T KNOW WHY YOU'RE HERE AT ALL silence  ==  [499 frames] -55.7187 [Ac=-27803.6 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-22.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHAT PART OF THE UNITED STATES IS YOUR HOME silence  ==  [605 frames] -56.7797 [Ac=-34351.7 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-23.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence MY I'M ALMOST HOMESICK FOR IT ALREADY silence  ==  [595 frames] -57.3580 [Ac=-34128.0 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-24.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence SHE NODDED AND HER EYES GREW SOFT AND MOIST silence  ==  [573 frames] -58.3460 [Ac=-33432.2 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-25.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence I WAS BROUGHT UP THE WAY MOST GIRLS IN HAWAII ARE BROUGHT UP silence  ==  [659 frames] -58.8537 [Ac=-38784.6 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THAT CAME BEFORE MY A B C'S silence  ==  [473 frames] -55.6532 [Ac=-26324.0 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-27.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT WAS THE SAME WAY WITH OUR REVOLVERS AND RIFLES silence  ==  [669 frames] -58.0237 [Ac=-38817.9 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-28.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence BUT IT CONTRIBUTED TO THE SMASH silence  ==  [469 frames] -57.2121 [Ac=-26832.5 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-29.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE LAST ONE I KNEW WAS AN OVERSEER silence  ==  [509 frames] -56.8509 [Ac=-28937.1 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-30.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence DO YOU KNOW ANY GOOD LAND AROUND HERE silence  ==  [505 frames] -57.1963 [Ac=-28884.1 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-31.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE RESIDENT COMMISSIONER IS AWAY IN AUSTRALIA silence  ==  [583 frames] -57.1931 [Ac=-33343.6 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-32.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I CANNOT FOLLOW YOU SHE SAID silence  ==  [469 frames] -56.2152 [Ac=-26364.9 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-33.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I NEVER ALLOW WHAT CAN'T BE CHANGED TO ANNOY ME silence  ==  [523 frames] -58.4569 [Ac=-30573.0 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-34.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence WHY THE AVERAGE REVIEW IS MORE NAUSEATING THAN COD LIVER OIL silence  ==  [687 frames] -58.2690 [Ac=-40030.8 LM=0.0] (Act=12.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-35.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HIS VOICE WAS PASSIONATELY REBELLIOUS silence  ==  [549 frames] -57.7314 [Ac=-31694.5 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-36.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence DON'T YOU SEE I HATE YOU silence  ==  [495 frames] -55.5024 [Ac=-27473.7 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-37.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SO HUGHIE AND I DID THE MANAGING OURSELVES silence  ==  [589 frames] -57.4291 [Ac=-33825.7 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-38.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IT HAPPENED TO HIM AT THE GALLINA SOCIETY IN OAKLAND ONE AFTERNOON silence  ==  [737 frames] -57.4956 [Ac=-42374.2 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-39.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE CRIED IN SUCH GENUINE DISMAY THAT SHE BROKE INTO HEARTY LAUGHTER silence  ==  [793 frames] -57.2215 [Ac=-45376.6 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf6-40.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WASH YOUR HANDS OF ME silence  ==  [507 frames] -54.0258 [Ac=-27391.1 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-01.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence I THINK IT'S MUCH NICER TO QUARREL silence  ==  [445 frames] -56.9635 [Ac=-25348.7 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-02.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I SAW IT WHEN SHE ROLLED silence  ==  [383 frames] -56.1167 [Ac=-21492.7 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-03.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I ONLY READ THE QUOTATIONS silence  ==  [421 frames] -58.1891 [Ac=-24497.6 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-04.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE WAS THE SOUL OF DEVOTION TO HIS EMPLOYERS silence  ==  [535 frames] -56.5391 [Ac=-30248.4 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-05.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence OUT OF HIS EIGHTEEN HUNDRED HE LAID ASIDE SIXTEEN HUNDRED EACH YEAR silence  ==  [719 frames] -58.9380 [Ac=-42376.4 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-06.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence YOU HAVE HEARD ALWAYS HOW HE WAS THE LOVER OF PRINCESS NAOMI silence  ==  [747 frames] -56.8284 [Ac=-42450.8 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-07.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THEY OUGHT TO PASS HERE SOME TIME TODAY silence  ==  [517 frames] -55.8807 [Ac=-28890.3 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-08.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence I HAD BEEN SAD TOO LONG ALREADY silence  ==  [595 frames] -54.7028 [Ac=-32548.2 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-09.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ALL EYES HOWEVER WERE STARING AT HIM IN CERTITUDE OF EXPECTANCY silence  ==  [805 frames] -57.0866 [Ac=-45954.7 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-10.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE HAD OBSERVED THE BUSINESS LIFE OF HAWAII AND DEVELOPED A VAULTING AMBITION silence  ==  [845 frames] -57.2633 [Ac=-48387.5 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-11.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I MAY MANAGE TO FREIGHT A CARGO BACK AS WELL silence  ==  [643 frames] -56.6600 [Ac=-36432.4 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-12.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence O'BRIEN HAD BEEN A CLEAN LIVING YOUNG MAN WITH IDEALS silence  ==  [681 frames] -55.5544 [Ac=-37832.5 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-13.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE IT WAS THAT LIVED TO FOUND THE FAMILY OF THE PATINO silence  ==  [653 frames] -56.8773 [Ac=-37140.9 LM=0.0] (Act=12.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-14.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence STRAIGHT OUT THEY SWAM THEIR HEADS GROWING SMALLER AND SMALLER silence  ==  [643 frames] -57.2494 [Ac=-36811.4 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-15.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU WON'T DIE OF MALNUTRITION BE SURE OF THAT silence  ==  [569 frames] -57.5225 [Ac=-32730.3 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-16.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SEE THE LENGTH OF THE BODY AND THAT ELONGATED NECK silence  ==  [573 frames] -56.9395 [Ac=-32626.3 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-17.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THEY ARE COMING ASHORE WHOEVER THEY ARE silence  ==  [617 frames] -54.8653 [Ac=-33851.9 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-18.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SOAKED IN SEAWATER THEY OFFSET THE HEAT RAYS silence  ==  [601 frames] -56.1264 [Ac=-33732.0 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-19.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THINK OF INVESTING IN SUCH AN ADVENTURE silence  ==  [511 frames] -55.0642 [Ac=-28137.8 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-20.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence NOBODY KNEW HIS HISTORY THEY OF THE JUNTA LEAST OF ALL silence  ==  [629 frames] -57.3914 [Ac=-36099.2 LM=0.0] (Act=14.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-21.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I HAVE BEEN DOUBLY BAPTIZED silence  ==  [465 frames] -56.4726 [Ac=-26259.8 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-22.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY WOULDN'T BE SWEEPING A BIG VESSEL LIKE THE MARTHA silence  ==  [551 frames] -57.3630 [Ac=-31607.0 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-23.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence JOAN LOOKED TRIUMPHANTLY AT SHELDON WHO BOWED silence  ==  [669 frames] -56.8412 [Ac=-38026.7 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-24.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AND I HOPE YOU'VE GOT PLENTY OF CHAIN OUT CAPTAIN YOUNG silence  ==  [607 frames] -56.7954 [Ac=-34474.8 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090227-205526-1235768090.1561/mfc/vf7-25.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE DISCOVERY SEEMED TO HAVE BEEN MADE ON THE SPUR OF THE MOMENT silence  ==  [691 frames] -56.6005 [Ac=-39110.9 LM=0.0] (Act=10.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

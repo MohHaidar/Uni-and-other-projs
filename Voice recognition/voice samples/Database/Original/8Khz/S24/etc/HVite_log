@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 36 physical / 36 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071008-164023-1191861589.6188/mfc/vf7-31.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW PLEASE GIVE A PLAIN STATEMENT OF WHAT OCCURRED silence  ==  [1141 frames] -55.9284 [Ac=-63814.4 LM=0.0] (Act=14.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071008-164023-1191861589.6188/mfc/vf7-32.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU CAN TAKE A VACATION ON PAY silence  ==  [519 frames] -57.2610 [Ac=-29718.5 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071008-164023-1191861589.6188/mfc/vf7-33.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY ARE BIG TREES AND REQUIRE PLENTY OF ROOM silence  ==  [633 frames] -57.9295 [Ac=-36669.4 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071008-164023-1191861589.6188/mfc/vf7-34.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND RAOUL LISTENED AGAIN TO THE TALE OF THE HOUSE silence  ==  [463 frames] -58.2064 [Ac=-26949.6 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20071008-164023-1191861589.6188/mfc/vf7-35.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THERE ARE NO KIDDIES AND HALF GROWN YOUTHS AMONG THEM silence  ==  [425 frames] -57.8356 [Ac=-24580.1 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

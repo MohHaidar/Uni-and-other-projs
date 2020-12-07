@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 37 physical / 37 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081005-050959-1223183326.683/mfc/vf8-01.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence I DO NOT BLAME YOU FOR ANYTHING REMEMBER THAT silence  ==  [889 frames] -56.9914 [Ac=-50665.4 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081005-050959-1223183326.683/mfc/vf8-03.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE WOMAN IN YOU IS ONLY INCIDENTAL ACCIDENTAL AND IRRELEVANT silence  ==  [1097 frames] -58.2647 [Ac=-63916.4 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081005-050959-1223183326.683/mfc/vf8-07.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence KEEP AN EYE ON HIM silence  ==  [567 frames] -54.4435 [Ac=-30869.5 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081005-050959-1223183326.683/mfc/vf8-08.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THOSE ARE MY OYSTERS HE SAID AT LAST silence  ==  [839 frames] -56.9751 [Ac=-47802.1 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081005-050959-1223183326.683/mfc/vf8-09.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THEY ARE NOT REGULAR OYSTER PIRATES NICHOLAS CONTINUED silence  ==  [915 frames] -56.7327 [Ac=-51910.4 LM=0.0] (Act=11.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

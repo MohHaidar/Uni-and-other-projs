@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080706-020319-1215309760.107/mfc/vf4-16.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ABOUT HIM EVERYWHERE WERE THE EVIDENCES OF LUXURY AND OF AGE silence  ==  [821 frames] -56.1720 [Ac=-46117.2 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080706-020319-1215309760.107/mfc/vf4-17.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEN HE STEPPED BACK WITH A LOW CRY OF PLEASURE silence  ==  [507 frames] -57.5632 [Ac=-29184.5 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080706-020319-1215309760.107/mfc/vf4-18.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IN THE PICTURE HE SAW EACH MOMENT A GREATER RESEMBLANCE TO JEANNE silence  ==  [711 frames] -58.5561 [Ac=-41633.4 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080706-020319-1215309760.107/mfc/vf4-19.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE TOLD HIMSELF THAT AS HE WASHED HIMSELF AND GROOMED HIS DISHEVELED CLOTHES silence  ==  [773 frames] -57.7737 [Ac=-44659.1 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080706-020319-1215309760.107/mfc/vf4-20.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ACCEPT A FATHER'S BLESSING AND WITH IT THIS silence  ==  [523 frames] -54.7733 [Ac=-28646.5 LM=0.0] (Act=10.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

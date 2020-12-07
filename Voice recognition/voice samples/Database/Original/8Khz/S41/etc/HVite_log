@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THAT CAME BEFORE MY A B C'S silence  ==  [437 frames] -57.1560 [Ac=-24977.2 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-27.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT WAS THE SAME WAY WITH OUR REVOLVERS AND RIFLES silence  ==  [491 frames] -57.0342 [Ac=-28003.8 LM=0.0] (Act=14.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-28.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence BUT IT CONTRIBUTED TO THE SMASH silence  ==  [361 frames] -56.3779 [Ac=-20352.4 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-29.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE LAST ONE I KNEW WAS AN OVERSEER silence  ==  [409 frames] -56.0466 [Ac=-22923.0 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-30.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence DO YOU KNOW ANY GOOD LAND AROUND HERE silence  ==  [359 frames] -58.0194 [Ac=-20829.0 LM=0.0] (Act=15.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-31.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE RESIDENT COMMISSIONER IS AWAY IN AUSTRALIA silence  ==  [487 frames] -56.8374 [Ac=-27679.8 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-32.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I CANNOT FOLLOW YOU SHE SAID silence  ==  [305 frames] -57.0006 [Ac=-17385.2 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-33.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I NEVER ALLOW WHAT CAN'T BE CHANGED TO ANNOY ME silence  ==  [347 frames] -58.7923 [Ac=-20400.9 LM=0.0] (Act=15.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-34.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence WHY THE AVERAGE REVIEW IS MORE NAUSEATING THAN COD LIVER OIL silence  ==  [543 frames] -58.5194 [Ac=-31776.0 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080901-163601-1220286920.36/mfc/vf6-35.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HIS VOICE WAS PASSIONATELY REBELLIOUS silence  ==  [431 frames] -58.3523 [Ac=-25149.8 LM=0.0] (Act=10.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,70 @@
+upper left 68 49
+
+lower right 100 72
+
+width/height 32 24
+
+search area 15 10
+
+uper left 76 112
+
+lower right  96 128
+
+w/h 22 16
+
+TargetPoints = detectSURFFeatures(Target);
+scenePoints = detectSURFFeatures(input,'ROI',ROI);
+
+[TargetFeatures, TargetPoints] = extractFeatures(Target, TargetPoints);
+[sceneFeatures, scenePoints] = extractFeatures(input, scenePoints);
+
+TargetPairs = matchFeatures(TargetFeatures, sceneFeatures);
+
+matchedTargetPoints = TargetPoints(TargetPairs(:, 1), :);
+matchedScenePoints = scenePoints(TargetPairs(:, 2), :);
+
+[tform, inlierTargetPoints, inlierScenePoints] = estimateGeometricTransform(matchedTargetPoints, matchedScenePoints, 'affine');
+
+midIdx = floor((size(Target)-1)/2);
+
+Idx = transformPointsForward(tform, midIdx);
+
+
+--------
+ptsDistorted  = detectFASTFeatures(Target,'MinContrast',0.1);
+ptsOriginal = detectFASTFeatures(input,'MinContrast',0.1,'ROI',ROI);
+
+[featuresOriginal,validPtsOriginal] = ...
+            extractFeatures(input,ptsOriginal);
+[featuresDistorted,validPtsDistorted] = ...
+            extractFeatures(Target,ptsDistorted);
+
+indexPairs = matchFeatures(featuresOriginal,featuresDistorted);
+
+matchedOriginal  = validPtsOriginal(indexPairs(:,1));
+matchedDistorted = validPtsDistorted(indexPairs(:,2));
+------
+
+videoFileReader = vision.VideoFileReader('video3.MP4');
+videoPlayer = vision.VideoPlayer();
+shapeInserter = vision.ShapeInserter('BorderColor','Custom', ...
+    'CustomBorderColor',[1 0 0]);
+
+objectFrame = step(videoFileReader);
+  %objectHSV = rgb2hsv(objectFrame);
+%objectGray = rgb2gray(objectFrame);
+objectRegion = [74, 110, 28, 22];
+objectImage = step(shapeInserter, objectFrame, objectRegion);
+
+tracker = vision.HistogramBasedTracker;
+initializeObject(tracker, objectFrame(:,:,2) , objectRegion);
+
+while ~isDone(videoFileReader)
+  frame = step(videoFileReader);
+  %gray = rgb2gray(frame);
+  bbox = step(tracker, frame(:,:,2));
+
+  out = step(shapeInserter, frame, bbox);
+  step(videoPlayer, out);
+end
+

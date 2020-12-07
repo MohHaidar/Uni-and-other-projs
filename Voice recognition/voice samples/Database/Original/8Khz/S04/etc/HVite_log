@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070419-173040-1177003754.110/mfc/vf3-36.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence WAS IT THE RENDEZVOUS OF THOSE WHO WERE STRIVING TO WORK HIS RUIN silence  ==  [618 frames] -56.6467 [Ac=-35007.7 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070419-173040-1177003754.110/mfc/vf3-37.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SHE ADDED WITH GENUINE SYMPATHY IN HER FACE AND VOICE silence  ==  [642 frames] -56.9401 [Ac=-36555.5 LM=0.0] (Act=14.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070419-173040-1177003754.110/mfc/vf3-38.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence PIERRE OBEYS ME WHEN WE ARE TOGETHER silence  ==  [492 frames] -54.1010 [Ac=-26617.7 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070419-173040-1177003754.110/mfc/vf3-39.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence JEANNE WAS TURNING THE BOW SHOREWARD silence  ==  [468 frames] -54.7956 [Ac=-25644.3 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070419-173040-1177003754.110/mfc/vf3-40.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MY RIGHT FOOT FEELS LIKE THAT OF A CHINESE DEBUTANTE silence  ==  [558 frames] -56.2524 [Ac=-31388.8 LM=0.0] (Act=12.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,4 @@
+left eye:   x = -0.02    y = -0.15
+right eye:  x = -0.06    y = -0.15
+nose:       x = -0.04    y = -0.12
+mouth:      x = -0.04    y = -0.08

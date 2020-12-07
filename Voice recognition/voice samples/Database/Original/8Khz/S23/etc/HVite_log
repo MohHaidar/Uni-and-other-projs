@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070924-210958-1190668143.5732/mfc/vf7-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THEY HANDLED TWO MEN ALREADY BOTH GRUB-THIEVES silence  ==  [2108 frames] -52.4552 [Ac=-110575.6 LM=0.0] (Act=15.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070924-210958-1190668143.5732/mfc/vf7-27.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ELI HARDING ASKED AS SHUNK STARTED TO FOLLOW silence  ==  [2106 frames] -53.8266 [Ac=-113358.9 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070924-210958-1190668143.5732/mfc/vf7-28.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence NOW GO AHEAD AND TELL ME IN A STRAIGHTFORWARD WAY WHAT HAS HAPPENED silence  ==  [2106 frames] -54.2436 [Ac=-114237.0 LM=0.0] (Act=14.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070924-210958-1190668143.5732/mfc/vf7-29.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT'S WHERE THEY CUT OFF THE SCOTTISH CHIEFS AND KILLED ALL HANDS silence  ==  [2106 frames] -56.9961 [Ac=-120033.9 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070924-210958-1190668143.5732/mfc/vf7-30.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND AFTER THE BATH A SHAVE WOULD NOT BE BAD silence  ==  [2106 frames] -53.4744 [Ac=-112617.0 LM=0.0] (Act=19.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

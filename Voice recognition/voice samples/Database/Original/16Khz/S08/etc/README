@@ -1,0 +1,24 @@
+Speaker Characteristics:
+
+Gender: male;
+Age range: adult;
+Language: EN;
+Pronunciation dialect: General American English
+
+Recording Information 
+
+Microphone make: kinobo akiro;
+Microphone type: usb mic;
+Audio card make: Broadcom 2836;
+Audio card type: integrated;
+Audio Recording Software: arecord
+O/S: Linux raspberrypi 4.4.11-v7+ #888 SMP Mon May 23 20:10:33 BST 2016 armv7l GNU/Linux
+
+File Info: 
+
+File type: WAV;
+Sampling rate: 16kHz;
+Sample rate format: 16bit;
+Number of channels: 1;
+Audio Processing: n;
+

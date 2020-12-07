@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 37 physical / 37 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090219-184559-1235069115.1410/mfc/vf6-01.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE CRIED AND SWUNG THE CLUB WILDLY silence  ==  [471 frames] -57.9093 [Ac=-27275.3 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090219-184559-1235069115.1410/mfc/vf6-02.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence SHE TURNED FEARING THAT JACQUES MIGHT SEE WHAT WAS IN HER FACE silence  ==  [601 frames] -58.6331 [Ac=-35238.5 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090219-184559-1235069115.1410/mfc/vf6-03.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THEY WERE FOLLOWING THE SHORE OF A LAKE silence  ==  [389 frames] -57.5562 [Ac=-22389.4 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090219-184559-1235069115.1410/mfc/vf6-04.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE WOLF-DOG THRUST HIS GAUNT MUZZLE TOWARD HIM silence  ==  [543 frames] -57.4473 [Ac=-31193.9 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090219-184559-1235069115.1410/mfc/vf6-05.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence FROM NOW ON WE'RE PALS silence  ==  [341 frames] -58.0387 [Ac=-19791.2 LM=0.0] (Act=10.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

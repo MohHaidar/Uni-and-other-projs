@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080714-191104-1216062627.13/mfc/vf5-06.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TWO DAYS AGO JEANNE LEARNED WHERE HER FATHER'S MEN WERE HIDING silence  ==  [431 frames] -58.0675 [Ac=-25027.1 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080714-191104-1216062627.13/mfc/vf5-07.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I WAS NEAR THE CABIN AND SAW YOU silence  ==  [313 frames] -59.5814 [Ac=-18649.0 LM=0.0] (Act=13.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080714-191104-1216062627.13/mfc/vf5-08.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence LOW BUSH WHIPPED HIM IN THE FACE AND LEFT NO STING silence  ==  [402 frames] -57.4263 [Ac=-23085.4 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080714-191104-1216062627.13/mfc/vf5-09.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence SUDDENLY JEANNE STOPPED FOR AN INSTANT silence  ==  [348 frames] -57.0281 [Ac=-19845.8 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080714-191104-1216062627.13/mfc/vf5-10.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THERE WAS NONE OF THE JOY OF MEETING IN HIS FACE silence  ==  [386 frames] -56.5261 [Ac=-21819.1 LM=0.0] (Act=10.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

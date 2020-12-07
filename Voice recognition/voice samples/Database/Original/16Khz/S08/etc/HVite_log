@@ -1,0 +1,150 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/macros -H /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/FwxKPYuTXk/words.mlf -i /tmp/FwxKPYuTXk/aligned.out -S /tmp/FwxKPYuTXk/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Nightly_Builds/AcousticModel-2017-02-01/HTK/16kHz_16bit/MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 15951 physical / 24402 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-01.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WELL HERE'S A STORY FOR YOU SARAH PERRY WAS A VETERINARY NURSE SENT-END  ==  [685 frames] -57.5689 [Ac=-39434.7 LM=0.0] (Act=16.1)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-02.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END WHO HAD BEEN WORKING DAILY AT AN OLD ZOO IN A DESERTED DISTRICT OF THE TERRITORY SENT-END  ==  [672 frames] -58.2167 [Ac=-39121.6 LM=0.0] (Act=15.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-03.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END SO SHE WAS VERY HAPPY TO START A NEW JOB AT A SUPERB PRIVATE PRACTICE SENT-END  ==  [660 frames] -58.4396 [Ac=-38570.1 LM=0.0] (Act=11.4)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-04.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END IN NORTH SQUARE NEAR THE DUKE STREET TOWER SENT-END  ==  [560 frames] -54.1619 [Ac=-30330.6 LM=0.0] (Act=9.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-05.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THAT AREA WAS MUCH NEARER FOR HER AND MORE TO HER LIKING SENT-END  ==  [572 frames] -56.6776 [Ac=-32419.6 LM=0.0] (Act=12.0)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-06.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END EVEN SO ON HER FIRST MORNING SHE FELT STRESSED SENT-END  ==  [510 frames] -57.1149 [Ac=-29128.6 LM=0.0] (Act=11.6)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-07.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END SHE ATE A BOWL OF PORRIDGE CHECKED HERSELF IN THE MIRROR SENT-END  ==  [460 frames] -57.0460 [Ac=-26241.2 LM=0.0] (Act=16.3)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-08.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END AND WASHED HER FACE IN A HURRY THEN SHE PUT ON A PLAIN YELLOW DRESS SENT-END  ==  [660 frames] -58.2310 [Ac=-38432.5 LM=0.0] (Act=16.0)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-09.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END AND A FLEECE JACKET PICKED UP HER KIT AND HEADED FOR WORK SENT-END  ==  [485 frames] -57.1099 [Ac=-27698.3 LM=0.0] (Act=16.2)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-10.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END WHEN SHE GOT THERE THERE WAS A WOMAN WITH A GOOSE WAITING FOR HER SENT-END  ==  [560 frames] -55.4607 [Ac=-31058.0 LM=0.0] (Act=13.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-11.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE WOMAN GAVE SARAH AN OFFICIAL LETTER FROM THE VET SENT-END  ==  [460 frames] -56.9821 [Ac=-26211.8 LM=0.0] (Act=11.3)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-12.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END THE LETTER IMPLIED THAT THE ANIMAL COULD BE SUFFERING FROM A RARE FORM SENT-END  ==  [560 frames] -57.0652 [Ac=-31956.5 LM=0.0] (Act=14.6)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-13.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END OF FOOT AND MOUTH DISEASE WHICH WAS SURPRISING SENT-END  ==  [447 frames] -55.2139 [Ac=-24680.6 LM=0.0] (Act=11.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-14.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END BECAUSE NORMALLY YOU WOULD ONLY EXPECT TO SEE IT IN A DOG OR A GOAT SENT-END  ==  [647 frames] -56.5358 [Ac=-36578.7 LM=0.0] (Act=12.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-15.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END SARAH WAS SENTIMENTAL SO THIS MADE HER FEEL SORRY FOR THE BEAUTIFUL BIRD SENT-END  ==  [635 frames] -56.1386 [Ac=-35648.0 LM=0.0] (Act=16.2)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-16.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END BEFORE LONG THAT ITCHY GOOSE BEGAN TO STRUT AROUND THE OFFICE LIKE A LUNATIC SENT-END  ==  [672 frames] -57.2423 [Ac=-38466.9 LM=0.0] (Act=12.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-17.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHICH MADE AN UNSANITARY MESS SENT-END  ==  [397 frames] -52.4009 [Ac=-20803.1 LM=0.0] (Act=9.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-18.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END THE GOOSE'S OWNER MARY HARRISON KEPT CALLING COMMA COMMA SENT-END  ==  [735 frames] -56.5000 [Ac=-41527.5 LM=0.0] (Act=13.2)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-19.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END WHICH SARAH THOUGHT WAS AN ODD CHOICE FOR A NAME SENT-END  ==  [472 frames] -53.1186 [Ac=-25072.0 LM=0.0] (Act=10.5)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-20.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END COMMA WAS STRONG AND HUGE SO IT WOULD TAKE SOME FORCE TO TRAP HER SENT-END  ==  [735 frames] -54.8779 [Ac=-40335.3 LM=0.0] (Act=13.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-21.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BUT SARAH HAD A DIFFERENT IDEA SENT-END  ==  [447 frames] -51.8690 [Ac=-23185.4 LM=0.0] (Act=10.6)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-22.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END FIRST SHE TRIED GENTLY STROKING THE GOOSE'S LOWER BACK WITH HER PALM SENT-END  ==  [572 frames] -57.4806 [Ac=-32878.9 LM=0.0] (Act=11.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-23.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THEN SINGING A TUNE TO HER FINALLY SHE ADMINISTERED ETHER SENT-END  ==  [747 frames] -54.0332 [Ac=-40362.8 LM=0.0] (Act=12.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-24.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END HER EFFORTS WERE NOT FUTILE IN NO TIME THE GOOSE BEGAN TO TIRE SENT-END  ==  [785 frames] -54.6162 [Ac=-42873.7 LM=0.0] (Act=14.4)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-25.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END SO SARAH WAS ABLE TO HOLD ONTO COMMA AND GIVE HER A RELAXING BATH SENT-END  ==  [660 frames] -56.1674 [Ac=-37070.5 LM=0.0] (Act=15.5)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-26.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END ONCE SARAH HAD MANAGED TO BATHE THE GOOSE SHE WIPED HER OFF WITH A CLOTH SENT-END  ==  [560 frames] -58.4968 [Ac=-32758.2 LM=0.0] (Act=15.2)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-27.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END AND LAID HER ON HER RIGHT SIDE THEN SARAH CONFIRMED THE VET'S DIAGNOSIS SENT-END  ==  [772 frames] -54.9817 [Ac=-42445.9 LM=0.0] (Act=16.4)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-28.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ALMOST IMMEDIATELY SHE REMEMBERED AN EFFECTIVE TREATMENT SENT-END  ==  [560 frames] -54.8870 [Ac=-30736.7 LM=0.0] (Act=14.5)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-29.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THAT REQUIRED HER TO MEASURE OUT A LOT OF MEDICINE SENT-END  ==  [472 frames] -54.5828 [Ac=-25763.1 LM=0.0] (Act=12.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-30.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SARAH WARNED THAT THIS COURSE OF TREATMENT MIGHT BE EXPENSIVE SENT-END  ==  [572 frames] -55.0507 [Ac=-31489.0 LM=0.0] (Act=13.3)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-31.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END EITHER FIVE OR SIX TIMES THE COST OF PENICILLIN SENT-END  ==  [572 frames] -54.3469 [Ac=-31086.4 LM=0.0] (Act=11.4)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-32.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I CAN'T IMAGINE PAYING SO MUCH BUT MRS HARRISON A MILLIONAIRE LAWYER SENT-END  ==  [772 frames] -55.8129 [Ac=-43087.5 LM=0.0] (Act=14.0)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-33.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END THOUGHT IT WAS A FAIR PRICE FOR A CURE SENT-END  ==  [472 frames] -52.1897 [Ac=-24633.5 LM=0.0] (Act=9.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-34.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END COMMA GETS A CURE AND DERIVATIVE WORKS MAY BE USED FREELY FOR ANY PURPOSE SENT-END  ==  [735 frames] -55.6566 [Ac=-40907.6 LM=0.0] (Act=13.9)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-35.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END WITHOUT SPECIAL PERMISSION PROVIDED THE PRESENT SENTENCE SENT-END  ==  [497 frames] -55.6915 [Ac=-27678.7 LM=0.0] (Act=11.9)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-36.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND THE FOLLOWING COPYRIGHT NOTIFICATION ACCOMPANY THE PASSAGE IN PRINT SENT-END  ==  [685 frames] -54.8290 [Ac=-37557.9 LM=0.0] (Act=10.8)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-37.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END IF REPRODUCED IN PRINT AND IN AUDIO FORMAT IN THE CASE OF A SOUND RECORDING SENT-END  ==  [722 frames] -55.9310 [Ac=-40382.2 LM=0.0] (Act=14.5)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-38.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END COPYRIGHT TWO THOUSAND DOUGLAS N HONOROF JILL MCCULLOUGH AND BARBARA SOMERVILLE SENT-END  ==  [1022 frames] -55.7384 [Ac=-56964.6 LM=0.0] (Act=13.7)
+Aligning File: /tmp/FwxKPYuTXk/zeroschism-20160710/cc-39.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ALL RIGHTS RESERVED SENT-END  ==  [347 frames] -50.0734 [Ac=-17375.5 LM=0.0] (Act=7.3)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

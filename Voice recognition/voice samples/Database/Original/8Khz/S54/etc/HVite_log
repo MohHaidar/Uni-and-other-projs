@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 36 physical / 36 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090208-190655-1234119974.1182/mfc/vf5-21.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SO CHEER UP AND GIVE US YOUR PAW silence  ==  [605 frames] -56.2535 [Ac=-34033.4 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090208-190655-1234119974.1182/mfc/vf5-22.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THIS TIME HE DID NOT YAP FOR MERCY silence  ==  [567 frames] -58.4105 [Ac=-33118.8 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090208-190655-1234119974.1182/mfc/vf5-23.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence AND THE AIR WAS GROWING CHILLY silence  ==  [435 frames] -60.2167 [Ac=-26194.3 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090208-190655-1234119974.1182/mfc/vf5-24.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence DON'T YOU SEE I'M CHEWING THIS THING IN TWO silence  ==  [527 frames] -58.8289 [Ac=-31002.8 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20090208-190655-1234119974.1182/mfc/vf5-25.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE QUESTIONS MAY HAVE COME VAGUELY IN HIS MIND silence  ==  [489 frames] -60.4181 [Ac=-29544.5 LM=0.0] (Act=9.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,52 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-21.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I HAVE BEEN DOUBLY BAPTIZED silence  ==  [303 frames] -60.9468 [Ac=-18466.9 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-22.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY WOULDN'T BE SWEEPING A BIG VESSEL LIKE THE MARTHA silence  ==  [451 frames] -59.6756 [Ac=-26913.7 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-23.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence JOAN LOOKED TRIUMPHANTLY AT SHELDON WHO BOWED silence  ==  [431 frames] -59.8358 [Ac=-25789.2 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-24.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AND I HOPE YOU'VE GOT PLENTY OF CHAIN OUT CAPTAIN YOUNG silence  ==  [439 frames] -60.2007 [Ac=-26428.1 LM=0.0] (Act=14.3)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-25.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE DISCOVERY SEEMED TO HAVE BEEN MADE ON THE SPUR OF THE MOMENT silence  ==  [463 frames] -60.3110 [Ac=-27924.0 LM=0.0] (Act=13.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-26.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THEY HANDLED TWO MEN ALREADY BOTH GRUB-THIEVES silence  ==  [369 frames] -60.4060 [Ac=-22289.8 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080923-231149-1222211467.412/mfc/vf7-27.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ELI HARDING ASKED AS SHUNK STARTED TO FOLLOW silence  ==  [445 frames] -58.8655 [Ac=-26195.2 LM=0.0] (Act=10.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

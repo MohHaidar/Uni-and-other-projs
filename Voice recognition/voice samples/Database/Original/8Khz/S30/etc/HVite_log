@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080106-052101-1199596820.8617/mfc/vf3-11.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS BLOOD GREW HOT WITH RAGE AT THE THOUGHT silence  ==  [691 frames] -57.3884 [Ac=-39655.4 LM=0.0] (Act=14.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080106-052101-1199596820.8617/mfc/vf3-12.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE WENT DOWN IN MIDSTREAM SEARCHING THE SHADOWS OF BOTH SHORES silence  ==  [831 frames] -55.8697 [Ac=-46427.7 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080106-052101-1199596820.8617/mfc/vf3-13.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence FOR A FULL MINUTE HE CROUCHED AND LISTENED silence  ==  [649 frames] -56.1004 [Ac=-36409.1 LM=0.0] (Act=13.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080106-052101-1199596820.8617/mfc/vf3-14.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE HAD BARELY ENTERED THIS WHEN HE SAW THE GLOW OF A FIRE silence  ==  [847 frames] -56.6395 [Ac=-47973.7 LM=0.0] (Act=13.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080106-052101-1199596820.8617/mfc/vf3-15.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A BIG CANVAS TENT WAS THE FIRST THING TO COME WITHIN HIS VISION silence  ==  [681 frames] -57.4018 [Ac=-39090.6 LM=0.0] (Act=12.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

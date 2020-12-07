@@ -1,0 +1,29 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ kalmanFilter = configureKalmanFilter('ConstantAcceleration',initial location, 1E5 * ones(1, 3), [25, 10, 1], 25);
+ 
+  if isObjectDetected 
+       
+        predict(kalmanFilter);
+        trackedLocation = correct(kalmanFilter, detectedLocation);
+       
+      else 
+        
+        trackedLocation = predict(kalmanFilter);
+       
+      end
+ 
+ 
+ 
+ 
+ 
+

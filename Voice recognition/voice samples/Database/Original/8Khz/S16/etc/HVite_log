@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070623-173331-1182619979.2351/mfc/vf6-06.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE SAYS HE BOUGHT HIM OF JACQUES LE BEAU silence  ==  [467 frames] -56.3668 [Ac=-26323.3 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070623-173331-1182619979.2351/mfc/vf6-07.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence HOW MUCH WAS IT silence  ==  [303 frames] -54.3902 [Ac=-16480.2 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070623-173331-1182619979.2351/mfc/vf6-08.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence YOUTH HAD COME BACK TO HER FREED FROM THE YOKE OF OPPRESSION silence  ==  [545 frames] -56.9931 [Ac=-31061.2 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070623-173331-1182619979.2351/mfc/vf6-09.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IT WAS NOT A LARGE LAKE AND ALMOST ROUND silence  ==  [449 frames] -56.8252 [Ac=-25514.5 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20070623-173331-1182619979.2351/mfc/vf6-10.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence ITS DIAMETER WAS NOT MORE THAN TWO HUNDRED YARDS silence  ==  [483 frames] -57.7376 [Ac=-27887.2 LM=0.0] (Act=11.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-31.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence INSTEAD HE JOINED HER AND THEY ATE LIKE TWO HUNGRY CHILDREN silence  ==  [665 frames] -58.2930 [Ac=-38764.8 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-32.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HE WAS WOUNDED IN THE ARM silence  ==  [383 frames] -56.4915 [Ac=-21636.3 LM=0.0] (Act=14.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-33.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I SUPPOSE YOU PICKED THAT LINGO UP AMONG THE INDIANS silence  ==  [509 frames] -58.2266 [Ac=-29637.3 LM=0.0] (Act=14.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-34.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HER WORDS SENT A STRANGE CHILL THROUGH PHILIP silence  ==  [451 frames] -58.0633 [Ac=-26186.5 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-35.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE HAD NO EXCUSE FOR THE FEELINGS WHICH WERE AROUSED IN HIM silence  ==  [523 frames] -58.8459 [Ac=-30776.4 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-36.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence WAS IT THE RENDEZVOUS OF THOSE WHO WERE STRIVING TO WORK HIS RUIN silence  ==  [547 frames] -59.7407 [Ac=-32678.2 LM=0.0] (Act=15.5)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-37.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SHE ADDED WITH GENUINE SYMPATHY IN HER FACE AND VOICE silence  ==  [533 frames] -58.1842 [Ac=-31012.2 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-38.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence PIERRE OBEYS ME WHEN WE ARE TOGETHER silence  ==  [421 frames] -56.6112 [Ac=-23833.3 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-39.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence JEANNE WAS TURNING THE BOW SHOREWARD silence  ==  [435 frames] -55.9845 [Ac=-24353.3 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20081212-193759-1229110649.72/mfc/vf3-40.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MY RIGHT FOOT FEELS LIKE THAT OF A CHINESE DEBUTANTE silence  ==  [637 frames] -58.4369 [Ac=-37224.3 LM=0.0] (Act=14.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

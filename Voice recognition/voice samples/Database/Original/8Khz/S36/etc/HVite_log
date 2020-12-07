@@ -1,0 +1,46 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080708-204603-1215549937.169/mfc/vf4-36.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A STRANGE FIRE BURNED IN HIS EYES WHEN THORPE TURNED silence  ==  [563 frames] -59.7896 [Ac=-33661.5 LM=0.0] (Act=13.7)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080708-204603-1215549937.169/mfc/vf4-37.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE HAD WORSHIPED HER AS DANTE MIGHT HAVE WORSHIPED BEATRICE silence  ==  [679 frames] -58.5432 [Ac=-39750.8 LM=0.0] (Act=13.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080708-204603-1215549937.169/mfc/vf4-38.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence DOES THAT LOOK GOOD silence  ==  [329 frames] -55.3385 [Ac=-18206.4 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080708-204603-1215549937.169/mfc/vf4-39.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THEY LOOK AS THOUGH HE HAD BEEN DRUMMING A PIANO ALL HIS LIFE silence  ==  [569 frames] -58.9936 [Ac=-33567.3 LM=0.0] (Act=14.1)
+Aligning File: /data/UserSubmissions/Quarantine/voxforgeivr-20080708-204603-1215549937.169/mfc/vf4-40.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence YOU WANT TO GO OVER AND SEE HIS GANG THROW DIRT silence  ==  [495 frames] -58.9061 [Ac=-29158.5 LM=0.0] (Act=12.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
