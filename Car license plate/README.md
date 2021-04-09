@@ -1,1 +1,1 @@
-This MATLEB script identifies the car plate number and color.
+This MATLAB script identifies the car plate number and color.
